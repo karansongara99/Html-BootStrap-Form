@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-info">
+    <div class="container bg-light mt-5 p-2">
+        <div class="card bg-dark p-1">
+            <div class="container p-3 bg-light text-dark text-center">
+                <h1><span>REGISTRATION FORM</span></h1>
+                <center><hr class="w-25"></center>
+                <p class="text-dark text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique vero iure, reiciendis  quidem  error alias? Architecto maxime, <br>hic sunt reprehenderit quam quia!</p>
+            </div>
+            <div class="card-body bg-light">
+                <form>
+                    <!-- Personal Details -->
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="dob" class="form-label">Date of Birth</label>
+                            <input type="date" class="form-control" id="dob">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="address1" class="form-label">Address 1</label>
+                            <input type="text" class="form-control" id="address1" placeholder="Address line 1">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="address2" class="form-label">Address 2</label>
+                            <input type="text" class="form-control" id="address2" placeholder="Address line 2">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="city" class="form-label">City</label>
+                            <input type="text" class="form-control" id="city" placeholder="City">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phone" class="form-label">Phone Number</label><br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Home</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Cell</label>
+                              </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- Contact Details -->
+                    <div class="card-header bg-secondary text-dark text-center">
+                        <h2>Contact Detail</h2>
+                    </div>
+                    <br>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="business-name" class="form-label">Business Name</label>
+                            <input type="text" class="form-control" id="business-name" placeholder="Business name">
+                        </div><br>
+                        <div class="col-md-6">
+                            <label for="business-name" class="form-label">Father's Name</label>
+                            <input type="text" class="form-control" id="business-name" placeholder="Father Name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="father-name" class="form-label">Mother's Name</label>
+                            <input type="text" class="form-control" id="father-name" placeholder="Mother's name">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="mother-name" class="form-label">Other 1</label>
+                            <input type="text" class="form-control" id="mother-name" placeholder="Other 1">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="business-name" class="form-label">Other 2</label>
+                            <input type="text" class="form-control" id="business-name" placeholder="Other 2">
+                        </div>
+                    </div>
+                   
+                    <hr>
+                    <!-- Other Information -->
+                    <div class="card-header bg-secondary text-dark text-center">
+                        <h2>Other Information</h2>
+                    </div>
+                    <br>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="start-date" class="form-label">Start Date</label>
+                            <input type="date" class="form-control" id="start-date">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="start-date" class="form-label">Start Date</label>
+                            <input type="date" class="form-control" id="start-date">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="end-date" class="form-label">End Date</label>
+                            <input type="date" class="form-control" id="end-date">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="annual-payment" class="form-label">Annual Payment</label>
+                        <input type="number" class="form-control" id="annual-payment" placeholder="$">
+                    </div>
+                    <div class="mb-3">
+                        <label for="total-payment" class="form-label">Total Annual Payment</label>
+                        <input type="number" class="form-control" id="total-payment" placeholder="$">
+                    </div>
+                    <!-- Signature -->
+                    <h6 class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h6>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="full-name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="full-name" placeholder="Full name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="paid-via" class="form-label">Paid Via</label>
+                            <input type="text" class="form-control" id="paid-via" placeholder="Payment method">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="full-name" class="form-label">Date</label>
+                            <input type="date" class="form-control" id="full-name" placeholder="Date">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="paid-via" class="form-label">Signature</label>
+                            <textarea class="form-control" placeholder="Signature" id="exampleFormControlTextarea1" rows="1"></textarea>
+                        </div>
+                    </div>                    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
